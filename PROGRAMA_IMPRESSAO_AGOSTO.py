@@ -13,23 +13,23 @@ from PIL import Image, ImageTk
 # 8S11
 def aoClicar_AGR_IV_8S1():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/AG_-_V/KIT7AGRUP.5de12a27.05REV-mesclado.pdf","print")
-    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do AGRUPAMENTO')
+    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do AGRUPAMENTO IV, semana 1')
     
 def aoClicar_AGR_V_8S1():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/AG_-_V/KIT7AGRUP.5de12a27.05REV-mesclado.pdf","print")
-    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do AGRUPAMENTO')
+    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do AGRUPAMENTO V, semana 1')
 
 def aoClicar_ANO_1_8S1():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
-    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 1º ANO')
+    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 1º ANO, semana 1')
 
 def aoClicar_ANO_2_8S1():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/2º_ANO/001-2º_ANO_-_1aQUINZENA-MAIO.pdf","print")
-    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 2º ANO')
+    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 2º ANO, semana 1')
 
 def aoClicar_ANO_3_8S1():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/3º_ANO/3º_ANO.pdf","print")
-    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 3º ANO')
+    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 3º ANO, semana 1')
 
 def aoClicar_ANO_4_8S1():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
@@ -45,27 +45,27 @@ def aoClicar_ANO_5_8S1():
 # 8S2
 def aoClicar_AGR_IV_8S2():
     # os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/AG_-_V/KIT7AGRUP.5de12a27.05REV-mesclado.pdf","print")
-    tkmsg.showinfo(title='',message='Atividades da 2ª Quinzena de Maio, do AGRUPAMENTO 5, não entregues pelos professores. Não carregadas no programa')
+    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do AGRUPAMENTO IV, semana 2')
 
 def aoClicar_AGR_V_8S2():
     # os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
-    tkmsg.showinfo(title='',message='Atividades da 2ª Quinzena de Maio, do 1º ANO, não entregues pelos professores. Não carregadas no programa')
+    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do AGRUPAMENTO V, semana 2')
 
 def aoClicar_ANO_1_8S2():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/IMPRESSAO_B/ATIVIDADES/2ª_QUINZENA/2º_ANO/ATIVIDADE_2ANO_2QUINZENA_MAIO.pdf","print")
-    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 2º ANO. 2ª Quinzena de Maio')
+    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 1º ANO, semana 2')
 
 def aoClicar_ANO_2_8S2():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/IMPRESSAO_B/ATIVIDADES/2ª_QUINZENA/3º_ANO/ ATIVIDADE_3ANO_2QUINZENA_MAIO.pdf","print")
-    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 3º ANO. 2ª Quinzena de Maio')
+    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 2º ANO, semana 2')
 
 def aoClicar_ANO_3_8S2():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/IMPRESSAO_B/ATIVIDADES/2ª_QUINZENA/3º_ANO/ ATIVIDADE_3ANO_2QUINZENA_MAIO.pdf","print")
-    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 3º ANO. 2ª Quinzena de Maio')
+    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 3º ANO, semana 2')
 
 def aoClicar_ANO_4_8S2():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
-    tkmsg.showinfo(title='',message='Atividades do 5º ANO apenas através dos LIVROS')
+    tkmsg.showinfo(title='',message='Atividades do 4º ANO apenas através dos LIVROS')
 
 def aoClicar_ANO_5_8S2():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
@@ -75,23 +75,23 @@ def aoClicar_ANO_5_8S2():
 # 8S3
 def aoClicar_AGR_IV_8S3():
     # os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/AG_-_V/KIT7AGRUP.5de12a27.05REV-mesclado.pdf","print")
-    tkmsg.showinfo(title='',message='Atividades da 2ª Quinzena de Maio, do AGRUPAMENTO 5, não entregues pelos professores. Não carregadas no programa')
+    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do AGRUPAMENTO IV, semana 3')
 
 def aoClicar_AGR_V_8S3():
     # os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
-    tkmsg.showinfo(title='',message='Atividades da 2ª Quinzena de Maio, do 1º ANO, não entregues pelos professores. Não carregadas no programa')
+    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do AGRUPAMENTO V, semana 3')
 
 def aoClicar_ANO_1_8S3():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/IMPRESSAO_B/ATIVIDADES/2ª_QUINZENA/2º_ANO/ATIVIDADE_2ANO_2QUINZENA_MAIO.pdf","print")
-    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 2º ANO. 2ª Quinzena de Maio')
+    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 1º ANO, semana 3')
 
 def aoClicar_ANO_2_8S3():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/IMPRESSAO_B/ATIVIDADES/2ª_QUINZENA/3º_ANO/ ATIVIDADE_3ANO_2QUINZENA_MAIO.pdf","print")
-    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 3º ANO. 2ª Quinzena de Maio')
+    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 2º ANO, semana 3')
 
 def aoClicar_ANO_3_8S3():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/IMPRESSAO_B/ATIVIDADES/2ª_QUINZENA/3º_ANO/ ATIVIDADE_3ANO_2QUINZENA_MAIO.pdf","print")
-    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 3º ANO. 2ª Quinzena de Maio')
+    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 3º ANO, semana 3')
 
 def aoClicar_ANO_4_8S3():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
@@ -105,23 +105,23 @@ def aoClicar_ANO_5_8S3():
 # 8S4
 def aoClicar_AGR_IV_8S4():
     # os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/AG_-_V/KIT7AGRUP.5de12a27.05REV-mesclado.pdf","print")
-    tkmsg.showinfo(title='',message='Atividades da 2ª Quinzena de Maio, do AGRUPAMENTO 5, não entregues pelos professores. Não carregadas no programa')
+    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do AGRUPAMENTO IV, semana 4')
 
 def aoClicar_AGR_V_8S4():
     # os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
-    tkmsg.showinfo(title='',message='Atividades da 2ª Quinzena de Maio, do 1º ANO, não entregues pelos professores. Não carregadas no programa')
+    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do AGRUPAMENTO V, semana 4')
 
 def aoClicar_ANO_1_8S4():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/IMPRESSAO_B/ATIVIDADES/2ª_QUINZENA/2º_ANO/ATIVIDADE_2ANO_2QUINZENA_MAIO.pdf","print")
-    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 2º ANO. 2ª Quinzena de Maio')
+    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 1º ANO, semana 4')
 
 def aoClicar_ANO_2_8S4():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/IMPRESSAO_B/ATIVIDADES/2ª_QUINZENA/3º_ANO/ ATIVIDADE_3ANO_2QUINZENA_MAIO.pdf","print")
-    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 3º ANO. 2ª Quinzena de Maio')
+    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 2º ANO, semana 4')
 
 def aoClicar_ANO_3_8S4():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/IMPRESSAO_B/ATIVIDADES/2ª_QUINZENA/3º_ANO/ ATIVIDADE_3ANO_2QUINZENA_MAIO.pdf","print")
-    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 3º ANO. 2ª Quinzena de Maio')
+    tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 3º ANO, semana 4')
 
 def aoClicar_ANO_4_8S4():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
@@ -164,17 +164,35 @@ def aoClicar_RIAN():
     
 
 # ELVIRA
-def aoClicar_ANA_VITORIA():
+def aoClicar_ANA():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
-    tkmsg.showinfo(title='',message='Atividades do ARTUR BRAIAN está sendo impressa')
+    tkmsg.showinfo(title='',message='Atividades da ANA VITORIA está sendo impressa')
     
-def aoClicar_CARLOS_EDUARDO():
+def aoClicar_CARLOS():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
-    tkmsg.showinfo(title='',message='Atividades do ARTUR BRAIAN está sendo impressa')
+    tkmsg.showinfo(title='',message='Atividades do CARLOS está sendo impressa')
     
-def aoClicar_VITOR_HUGO():
+def aoClicar_VITOR():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
-    tkmsg.showinfo(title='',message='Atividades do ARTUR BRAIAN está sendo impressa')
+    tkmsg.showinfo(title='',message='Atividades do VITOR está sendo impressa')
+    
+
+# VALDENIR
+def aoClicar_ELISA():
+    # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades da ELISA está sendo impressa')
+    
+def aoClicar_HENRIQUE():
+    # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades do HENRIQUE está sendo impressa')
+    
+def aoClicar_JULYA():
+    # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades da JULYA está sendo impressa')
+    
+def aoClicar_VICTOR():
+    # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades da VICTOR está sendo impressa')
 
 # root
 window = Tk()
@@ -292,54 +310,155 @@ ANO_5_8S4.place(x=444,y=245)
 
 
 # AEE
-# 8Q2
+# 8S1
 # BRASILETE
 # MENSAGEM_NOME_BRASILETE
 mensagem = Label(window, text="BRASILETE", font="calibri 16 bold")
-mensagem.place(x=894,y=90)
+mensagem.place(x=755,y=90)
 AEE_ALEXANDRE = Button(window, text="ALEXANDRE", command=aoClicar_ALEXANDRE, bg='SeaGreen2')
 AEE_ALEXANDRE.place(x=560,y=125)
 AEE_ANTONIO = Button(window, text="ANTONIO", command=aoClicar_ANTONIO, bg='SeaGreen2')
-AEE_ANTONIO.place(x=623,y=125)
+AEE_ANTONIO.place(x=638,y=125)
 AEE_ARTUR = Button(window, text="ARTUR", command=aoClicar_ARTUR, bg='SeaGreen2')
-AEE_ARTUR.place(x=894,y=125)
+AEE_ARTUR.place(x=705,y=125)
 AEE_MARIA_EDUARDA = Button(window, text="MARIA EDUARDA", command=aoClicar_MARIA_EDUARDA, bg='SeaGreen2')
-AEE_MARIA_EDUARDA.place(x=922,y=165)
+AEE_MARIA_EDUARDA.place(x=755,y=125)
 AEE_MATEUS = Button(window, text="MATEUS", command=aoClicar_MATEUS, bg='SeaGreen2')
-AEE_MATEUS.place(x=1003,y=125)
+AEE_MATEUS.place(x=861,y=125)
 AEE_NICOLAS = Button(window, text="NICOLAS", command=aoClicar_MATEUS, bg='SeaGreen2')
-AEE_NICOLAS.place(x=1003,y=125)
+AEE_NICOLAS.place(x=920,y=125)
 AEE_RIAN = Button(window, text="RIAN", command=aoClicar_RIAN, bg='SeaGreen2')
-AEE_RIAN.place(x=1003,y=125)
+AEE_RIAN.place(x=982,y=125)
+
+# ELVIRA
+# MENSAGEM_NOME_ELVIRA
+mensagem = Label(window, text="ELVIRA", font="calibri 16 bold")
+mensagem.place(x=1080,y=90)
+AEE_ANA = Button(window, text="ANA", command=aoClicar_ANA, bg='SeaGreen2')
+AEE_ANA.place(x=1040,y=125)
+AEE_CARLOS = Button(window, text="CARLOS", command=aoClicar_CARLOS, bg='SeaGreen2')
+AEE_CARLOS.place(x=1078,y=125)
+AEE_VITOR = Button(window, text="VITOR", command=aoClicar_VITOR, bg='SeaGreen2')
+AEE_VITOR.place(x=1135,y=125)
 
 # VALDENIR
 # MENSAGEM_NOME_VALDENIR
 mensagem = Label(window, text="VALDENIR", font="calibri 16 bold")
-mensagem.place(x=1040,y=90)
-# AEE_6 = Button(window, text="6", command=aoClicar_AGR_IV_8Q2, bg='SeaGreen2')
-# AEE_6.place(x=1003,y=125)
-# AEE_7 = Button(window, text="6", command=aoClicar_AGR_IV_8Q2, bg='SeaGreen2')
-# AEE_7.place(x=1003,y=125)
-# AEE_8 = Button(window, text="6", command=aoClicar_AGR_IV_8Q2, bg='SeaGreen2')
-# AEE_8.place(x=1003,y=125)
-# AEE_9 = Button(window, text="6", command=aoClicar_AGR_IV_8Q2, bg='SeaGreen2')
-# AEE_9.place(x=1003,y=125)
-# AEE_10 = Button(window, text="6", command=aoClicar_AGR_IV_8Q2, bg='SeaGreen2')
-# AEE_10.place(x=1003,y=125)
-# AEE_11 = Button(window, text="6", command=aoClicar_AGR_IV_8Q2, bg='SeaGreen2')
-# AEE_11.place(x=1003,y=125)
+mensagem.place(x=1253,y=90)
+AEE_ELISA = Button(window, text="ELISA", command=aoClicar_ELISA, bg='SeaGreen2')
+AEE_ELISA.place(x=1200,y=125)
+AEE_HENRIQUE = Button(window, text="HENRIQUE", command=aoClicar_HENRIQUE, bg='SeaGreen2')
+AEE_HENRIQUE.place(x=1242,y=125)
+AEE_JULYA = Button(window, text="JULYA", command=aoClicar_JULYA, bg='SeaGreen2')
+AEE_JULYA.place(x=1312,y=125)
+AEE_VICTOR = Button(window, text="VICTOR", command=aoClicar_VICTOR, bg='SeaGreen2')
+AEE_VICTOR.place(x=1358,y=125)
 
+# 8S2
+# BRASILETE
+AEE_ALEXANDRE = Button(window, text="ALEXANDRE", command=aoClicar_ALEXANDRE, bg='SeaGreen2')
+AEE_ALEXANDRE.place(x=560,y=165)
+AEE_ANTONIO = Button(window, text="ANTONIO", command=aoClicar_ANTONIO, bg='SeaGreen2')
+AEE_ANTONIO.place(x=638,y=165)
+AEE_ARTUR = Button(window, text="ARTUR", command=aoClicar_ARTUR, bg='SeaGreen2')
+AEE_ARTUR.place(x=705,y=165)
+AEE_MARIA_EDUARDA = Button(window, text="MARIA EDUARDA", command=aoClicar_MARIA_EDUARDA, bg='SeaGreen2')
+AEE_MARIA_EDUARDA.place(x=755,y=165)
+AEE_MATEUS = Button(window, text="MATEUS", command=aoClicar_MATEUS, bg='SeaGreen2')
+AEE_MATEUS.place(x=861,y=165)
+AEE_NICOLAS = Button(window, text="NICOLAS", command=aoClicar_MATEUS, bg='SeaGreen2')
+AEE_NICOLAS.place(x=920,y=165)
+AEE_RIAN = Button(window, text="RIAN", command=aoClicar_RIAN, bg='SeaGreen2')
+AEE_RIAN.place(x=982,y=165)
 
 # ELVIRA
-# MENSAGEM_NOME_VALDENIR
-mensagem = Label(window, text="VALDENIR", font="calibri 16 bold")
-mensagem.place(x=1040,y=90)
-AEE_ANA_VITORIA = Button(window, text="6", command=aoClicar_ANA_VITORIA, bg='SeaGreen2')
-AEE_ANA_VITORIA.place(x=1003,y=125)
-AEE_CARLOS_EDUARDO = Button(window, text="6", command=aoClicar_CARLOS_EDUARDO, bg='SeaGreen2')
-AEE_CARLOS_EDUARDO.place(x=1003,y=125)
-AEE_VITOR_HUGO = Button(window, text="6", command=aoClicar_VITOR_HUGO, bg='SeaGreen2')
-AEE_VITOR_HUGO.place(x=1003,y=125)
+AEE_ANA = Button(window, text="ANA", command=aoClicar_ANA, bg='SeaGreen2')
+AEE_ANA.place(x=1040,y=165)
+AEE_CARLOS = Button(window, text="CARLOS", command=aoClicar_CARLOS, bg='SeaGreen2')
+AEE_CARLOS.place(x=1078,y=165)
+AEE_VITOR = Button(window, text="VITOR", command=aoClicar_VITOR, bg='SeaGreen2')
+AEE_VITOR.place(x=1135,y=165)
+
+# VALDENIR
+AEE_ELISA = Button(window, text="ELISA", command=aoClicar_ELISA, bg='SeaGreen2')
+AEE_ELISA.place(x=1200,y=165)
+AEE_HENRIQUE = Button(window, text="HENRIQUE", command=aoClicar_HENRIQUE, bg='SeaGreen2')
+AEE_HENRIQUE.place(x=1242,y=165)
+AEE_JULYA = Button(window, text="JULYA", command=aoClicar_JULYA, bg='SeaGreen2')
+AEE_JULYA.place(x=1312,y=165)
+AEE_VICTOR = Button(window, text="VICTOR", command=aoClicar_VICTOR, bg='SeaGreen2')
+AEE_VICTOR.place(x=1358,y=165)
+
+# 8S3
+# BRASILETE
+AEE_ALEXANDRE = Button(window, text="ALEXANDRE", command=aoClicar_ALEXANDRE, bg='SeaGreen2')
+AEE_ALEXANDRE.place(x=560,y=205)
+AEE_ANTONIO = Button(window, text="ANTONIO", command=aoClicar_ANTONIO, bg='SeaGreen2')
+AEE_ANTONIO.place(x=638,y=205)
+AEE_ARTUR = Button(window, text="ARTUR", command=aoClicar_ARTUR, bg='SeaGreen2')
+AEE_ARTUR.place(x=705,y=205)
+AEE_MARIA_EDUARDA = Button(window, text="MARIA EDUARDA", command=aoClicar_MARIA_EDUARDA, bg='SeaGreen2')
+AEE_MARIA_EDUARDA.place(x=755,y=205)
+AEE_MATEUS = Button(window, text="MATEUS", command=aoClicar_MATEUS, bg='SeaGreen2')
+AEE_MATEUS.place(x=861,y=205)
+AEE_NICOLAS = Button(window, text="NICOLAS", command=aoClicar_MATEUS, bg='SeaGreen2')
+AEE_NICOLAS.place(x=920,y=205)
+AEE_RIAN = Button(window, text="RIAN", command=aoClicar_RIAN, bg='SeaGreen2')
+AEE_RIAN.place(x=982,y=205)
+
+# ELVIRA
+AEE_ANA = Button(window, text="ANA", command=aoClicar_ANA, bg='SeaGreen2')
+AEE_ANA.place(x=1040,y=205)
+AEE_CARLOS = Button(window, text="CARLOS", command=aoClicar_CARLOS, bg='SeaGreen2')
+AEE_CARLOS.place(x=1078,y=205)
+AEE_VITOR = Button(window, text="VITOR", command=aoClicar_VITOR, bg='SeaGreen2')
+AEE_VITOR.place(x=1135,y=205)
+
+# VALDENIR
+AEE_ELISA = Button(window, text="ELISA", command=aoClicar_ELISA, bg='SeaGreen2')
+AEE_ELISA.place(x=1200,y=205)
+AEE_HENRIQUE = Button(window, text="HENRIQUE", command=aoClicar_HENRIQUE, bg='SeaGreen2')
+AEE_HENRIQUE.place(x=1242,y=205)
+AEE_JULYA = Button(window, text="JULYA", command=aoClicar_JULYA, bg='SeaGreen2')
+AEE_JULYA.place(x=1312,y=205)
+AEE_VICTOR = Button(window, text="VICTOR", command=aoClicar_VICTOR, bg='SeaGreen2')
+AEE_VICTOR.place(x=1358,y=205)
+
+# 8S4
+# BRASILETE
+AEE_ALEXANDRE = Button(window, text="ALEXANDRE", command=aoClicar_ALEXANDRE, bg='SeaGreen2')
+AEE_ALEXANDRE.place(x=560,y=245)
+AEE_ANTONIO = Button(window, text="ANTONIO", command=aoClicar_ANTONIO, bg='SeaGreen2')
+AEE_ANTONIO.place(x=638,y=245)
+AEE_ARTUR = Button(window, text="ARTUR", command=aoClicar_ARTUR, bg='SeaGreen2')
+AEE_ARTUR.place(x=705,y=245)
+AEE_MARIA_EDUARDA = Button(window, text="MARIA EDUARDA", command=aoClicar_MARIA_EDUARDA, bg='SeaGreen2')
+AEE_MARIA_EDUARDA.place(x=755,y=245)
+AEE_MATEUS = Button(window, text="MATEUS", command=aoClicar_MATEUS, bg='SeaGreen2')
+AEE_MATEUS.place(x=861,y=245)
+AEE_NICOLAS = Button(window, text="NICOLAS", command=aoClicar_MATEUS, bg='SeaGreen2')
+AEE_NICOLAS.place(x=920,y=245)
+AEE_RIAN = Button(window, text="RIAN", command=aoClicar_RIAN, bg='SeaGreen2')
+AEE_RIAN.place(x=982,y=245)
+
+# ELVIRA
+AEE_ANA = Button(window, text="ANA", command=aoClicar_ANA, bg='SeaGreen2')
+AEE_ANA.place(x=1040,y=245)
+AEE_CARLOS = Button(window, text="CARLOS", command=aoClicar_CARLOS, bg='SeaGreen2')
+AEE_CARLOS.place(x=1078,y=245)
+AEE_VITOR = Button(window, text="VITOR", command=aoClicar_VITOR, bg='SeaGreen2')
+AEE_VITOR.place(x=1135,y=245)
+
+# VALDENIR
+AEE_ELISA = Button(window, text="ELISA", command=aoClicar_ELISA, bg='SeaGreen2')
+AEE_ELISA.place(x=1200,y=245)
+AEE_HENRIQUE = Button(window, text="HENRIQUE", command=aoClicar_HENRIQUE, bg='SeaGreen2')
+AEE_HENRIQUE.place(x=1242,y=245)
+AEE_JULYA = Button(window, text="JULYA", command=aoClicar_JULYA, bg='SeaGreen2')
+AEE_JULYA.place(x=1312,y=245)
+AEE_VICTOR = Button(window, text="VICTOR", command=aoClicar_VICTOR, bg='SeaGreen2')
+AEE_VICTOR.place(x=1358,y=245)
+
 
 
 
