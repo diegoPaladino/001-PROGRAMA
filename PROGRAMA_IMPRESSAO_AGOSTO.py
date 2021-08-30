@@ -5,7 +5,7 @@
 
 
 import os
-import tkinter
+import tkinter as tk
 from tkinter import *
 import tkinter.messagebox as tkmsg
 from PIL import Image, ImageTk
@@ -193,6 +193,11 @@ def aoClicar_JULYA():
 def aoClicar_VICTOR():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
     tkmsg.showinfo(title='',message='Atividades da VICTOR está sendo impressa')
+    
+# DECLARAÇÃO:
+def aoClicar_TERMO():
+    os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/SETEMBRO/TERMO_RESPONSABILIDADE","print")
+    tkmsg.showinfo(title='',message='Já está sendo impressa o TERMO DE RESPONSABILIDADE DE ENSINO PRESENCIAL')
 
 # root
 window = Tk()
@@ -205,14 +210,14 @@ window.title("E.M. BELA VISTA - IMPRESSÃO DE ATIVIDADES")
 # # MENSAGENS
 # MENSAGEM_1-"CLIQUE UMA VEZ..."
 
-mensagem = Label(window, text="AGOSTO\n", font="calibri 30 bold")
-mensagem.pack(side="right")
-mensagem.place(x=700,y=0)
+mensagem = Label(window, text="SETEMBRO\n", font="calibri 40 bold")
+# mensagem.pack()
+mensagem.place(x=665,y=0)
 
 
-mensagem = Label(window, text="CLIQUE 1 VEZ SOBRE:\n", font="calibri 20 bold")
-mensagem.pack(side="right")
-mensagem.place(x=650,y=45)
+# mensagem = Label(window, text="CLIQUE 1 VEZ SOBRE:\n", font="calibri 20 bold")
+# mensagem.pack(side="right")
+# mensagem.place(x=650,y=45)
 
 
 # MENSAGEM_LEGENDA
@@ -245,15 +250,15 @@ mensagem.place(x=5,y=240)
 
 
 # 8S1
-AGR_IV_8S1 = Button(window, text="AGR.IV", command=aoClicar_AGR_IV_8S1, bg='SeaGreen2')
+AGR_IV_8S1 = Button(window, text="AGR.IV", command=aoClicar_AGR_IV_8S1, bg='ivory3')
 AGR_IV_8S1.place(x=130,y=125)
-AGR_V_8S1 = Button(window, text="AGR. V", command=aoClicar_AGR_V_8S1, bg='SeaGreen2')
+AGR_V_8S1 = Button(window, text="AGR. V", command=aoClicar_AGR_V_8S1, bg='ivory3')
 AGR_V_8S1.place(x=180,y=125)
-ANO_1_8S1 = Button(window, text="1º ANO", command=aoClicar_ANO_1_8S1, bg='SeaGreen2')
+ANO_1_8S1 = Button(window, text="1º ANO", command=aoClicar_ANO_1_8S1, bg='ivory3')
 ANO_1_8S1.place(x=230,y=125)
-ANO_2_8S1 = Button(window, text="2º ANO", command=aoClicar_ANO_2_8S1, bg='SeaGreen2')
+ANO_2_8S1 = Button(window, text="2º ANO", command=aoClicar_ANO_2_8S1, bg='ivory3')
 ANO_2_8S1.place(x=284,y=125)
-ANO_3_8S1 = Button(window, text="3º ANO", command=aoClicar_ANO_3_8S1, bg='SeaGreen2')
+ANO_3_8S1 = Button(window, text="3º ANO", command=aoClicar_ANO_3_8S1, bg='ivory3')
 ANO_3_8S1.place(x=338,y=125)
 ANO_4_8S1 = Button(window, text="4º ANO", command=aoClicar_ANO_4_8S1, bg='dim gray')
 ANO_4_8S1.place(x=391,y=125)
@@ -261,15 +266,15 @@ ANO_5_8S1 = Button(window, text="5º ANO", command=aoClicar_ANO_5_8S1, bg='dim g
 ANO_5_8S1.place(x=444,y=125)
 
 # 8S2
-AGR_IV_8S2 = Button(window, text="AGR.IV", command=aoClicar_AGR_IV_8S2, bg='SeaGreen2')
+AGR_IV_8S2 = Button(window, text="AGR.IV", command=aoClicar_AGR_IV_8S2, bg='ivory3')
 AGR_IV_8S2.place(x=130,y=165)
-AGR_V_8S2 = Button(window, text="AGR. V", command=aoClicar_AGR_V_8S2, bg='SeaGreen2')
+AGR_V_8S2 = Button(window, text="AGR. V", command=aoClicar_AGR_V_8S2, bg='ivory3')
 AGR_V_8S2.place(x=180,y=165)
-ANO_1_8S2 = Button(window, text="1º ANO", command=aoClicar_ANO_1_8S2, bg='SeaGreen2')
+ANO_1_8S2 = Button(window, text="1º ANO", command=aoClicar_ANO_1_8S2, bg='ivory3')
 ANO_1_8S2.place(x=230,y=165)
-ANO_2_8S2 = Button(window, text="2º ANO", command=aoClicar_ANO_2_8S2, bg='SeaGreen2')
+ANO_2_8S2 = Button(window, text="2º ANO", command=aoClicar_ANO_2_8S2, bg='ivory3')
 ANO_2_8S2.place(x=284,y=165)
-ANO_3_8S2 = Button(window, text="3º ANO", command=aoClicar_ANO_3_8S2, bg='SeaGreen2')
+ANO_3_8S2 = Button(window, text="3º ANO", command=aoClicar_ANO_3_8S2, bg='ivory3')
 ANO_3_8S2.place(x=338,y=165)
 ANO_4_8S2 = Button(window, text="4º ANO", command=aoClicar_ANO_4_8S2, bg='dim gray')
 ANO_4_8S2.place(x=391,y=165)
@@ -277,15 +282,15 @@ ANO_5_8S2 = Button(window, text="5º ANO", command=aoClicar_ANO_5_8S2, bg='dim g
 ANO_5_8S2.place(x=444,y=165)
 
 # 8S3
-AGR_IV_8S3 = Button(window, text="AGR.IV", command=aoClicar_AGR_IV_8S3, bg='SeaGreen2')
+AGR_IV_8S3 = Button(window, text="AGR.IV", command=aoClicar_AGR_IV_8S3, bg='ivory3')
 AGR_IV_8S3.place(x=130,y=205)
-AGR_V_8S3 = Button(window, text="AGR. V", command=aoClicar_AGR_V_8S3, bg='SeaGreen2')
+AGR_V_8S3 = Button(window, text="AGR. V", command=aoClicar_AGR_V_8S3, bg='ivory3')
 AGR_V_8S3.place(x=180,y=205)
-ANO_1_8S3 = Button(window, text="1º ANO", command=aoClicar_ANO_1_8S3, bg='SeaGreen2')
+ANO_1_8S3 = Button(window, text="1º ANO", command=aoClicar_ANO_1_8S3, bg='ivory3')
 ANO_1_8S3.place(x=230,y=205)
-ANO_2_8S3 = Button(window, text="2º ANO", command=aoClicar_ANO_2_8S3, bg='SeaGreen2')
+ANO_2_8S3 = Button(window, text="2º ANO", command=aoClicar_ANO_2_8S3, bg='ivory3')
 ANO_2_8S3.place(x=284,y=205)
-ANO_3_8S3 = Button(window, text="3º ANO", command=aoClicar_ANO_3_8S3, bg='SeaGreen2')
+ANO_3_8S3 = Button(window, text="3º ANO", command=aoClicar_ANO_3_8S3, bg='ivory3')
 ANO_3_8S3.place(x=338,y=205)
 ANO_4_8S3 = Button(window, text="4º ANO", command=aoClicar_ANO_4_8S3, bg='dim gray')
 ANO_4_8S3.place(x=391,y=205)
@@ -293,15 +298,15 @@ ANO_5_8S3 = Button(window, text="5º ANO", command=aoClicar_ANO_5_8S3, bg='dim g
 ANO_5_8S3.place(x=444,y=205)
 
 # 8S4
-AGR_IV_8S4 = Button(window, text="AGR.IV", command=aoClicar_AGR_IV_8S4, bg='SeaGreen2')
+AGR_IV_8S4 = Button(window, text="AGR.IV", command=aoClicar_AGR_IV_8S4, bg='ivory3')
 AGR_IV_8S4.place(x=130,y=245)
-AGR_V_8S4 = Button(window, text="AGR. V", command=aoClicar_AGR_V_8S4, bg='SeaGreen2')
+AGR_V_8S4 = Button(window, text="AGR. V", command=aoClicar_AGR_V_8S4, bg='ivory3')
 AGR_V_8S4.place(x=180,y=245)
-ANO_1_8S4 = Button(window, text="1º ANO", command=aoClicar_ANO_1_8S4, bg='SeaGreen2')
+ANO_1_8S4 = Button(window, text="1º ANO", command=aoClicar_ANO_1_8S4, bg='ivory3')
 ANO_1_8S4.place(x=230,y=245)
-ANO_2_8S4 = Button(window, text="2º ANO", command=aoClicar_ANO_2_8S4, bg='SeaGreen2')
+ANO_2_8S4 = Button(window, text="2º ANO", command=aoClicar_ANO_2_8S4, bg='ivory3')
 ANO_2_8S4.place(x=284,y=245)
-ANO_3_8S4 = Button(window, text="3º ANO", command=aoClicar_ANO_3_8S4, bg='SeaGreen2')
+ANO_3_8S4 = Button(window, text="3º ANO", command=aoClicar_ANO_3_8S4, bg='ivory3')
 ANO_3_8S4.place(x=338,y=245)
 ANO_4_8S4 = Button(window, text="4º ANO", command=aoClicar_ANO_4_8S4, bg='dim gray')
 ANO_4_8S4.place(x=391,y=245)
@@ -315,158 +320,162 @@ ANO_5_8S4.place(x=444,y=245)
 # MENSAGEM_NOME_BRASILETE
 mensagem = Label(window, text="BRASILETE", font="calibri 16 bold")
 mensagem.place(x=755,y=90)
-AEE_ALEXANDRE = Button(window, text="ALEXANDRE", command=aoClicar_ALEXANDRE, bg='SeaGreen2')
+AEE_ALEXANDRE = Button(window, text="ALEXANDRE", command=aoClicar_ALEXANDRE, bg='ivory3')
 AEE_ALEXANDRE.place(x=560,y=125)
-AEE_ANTONIO = Button(window, text="ANTONIO", command=aoClicar_ANTONIO, bg='SeaGreen2')
+AEE_ANTONIO = Button(window, text="ANTONIO", command=aoClicar_ANTONIO, bg='ivory3')
 AEE_ANTONIO.place(x=638,y=125)
-AEE_ARTUR = Button(window, text="ARTUR", command=aoClicar_ARTUR, bg='SeaGreen2')
+AEE_ARTUR = Button(window, text="ARTUR", command=aoClicar_ARTUR, bg='ivory3')
 AEE_ARTUR.place(x=705,y=125)
-AEE_MARIA_EDUARDA = Button(window, text="MARIA EDUARDA", command=aoClicar_MARIA_EDUARDA, bg='SeaGreen2')
+AEE_MARIA_EDUARDA = Button(window, text="MARIA EDUARDA", command=aoClicar_MARIA_EDUARDA, bg='ivory3')
 AEE_MARIA_EDUARDA.place(x=755,y=125)
-AEE_MATEUS = Button(window, text="MATEUS", command=aoClicar_MATEUS, bg='SeaGreen2')
+AEE_MATEUS = Button(window, text="MATEUS", command=aoClicar_MATEUS, bg='ivory3')
 AEE_MATEUS.place(x=861,y=125)
-AEE_NICOLAS = Button(window, text="NICOLAS", command=aoClicar_MATEUS, bg='SeaGreen2')
+AEE_NICOLAS = Button(window, text="NICOLAS", command=aoClicar_MATEUS, bg='ivory3')
 AEE_NICOLAS.place(x=920,y=125)
-AEE_RIAN = Button(window, text="RIAN", command=aoClicar_RIAN, bg='SeaGreen2')
+AEE_RIAN = Button(window, text="RIAN", command=aoClicar_RIAN, bg='ivory3')
 AEE_RIAN.place(x=982,y=125)
 
 # ELVIRA
 # MENSAGEM_NOME_ELVIRA
 mensagem = Label(window, text="ELVIRA", font="calibri 16 bold")
 mensagem.place(x=1080,y=90)
-AEE_ANA = Button(window, text="ANA", command=aoClicar_ANA, bg='SeaGreen2')
+AEE_ANA = Button(window, text="ANA", command=aoClicar_ANA, bg='ivory3')
 AEE_ANA.place(x=1040,y=125)
-AEE_CARLOS = Button(window, text="CARLOS", command=aoClicar_CARLOS, bg='SeaGreen2')
+AEE_CARLOS = Button(window, text="CARLOS", command=aoClicar_CARLOS, bg='ivory3')
 AEE_CARLOS.place(x=1078,y=125)
-AEE_VITOR = Button(window, text="VITOR", command=aoClicar_VITOR, bg='SeaGreen2')
+AEE_VITOR = Button(window, text="VITOR", command=aoClicar_VITOR, bg='ivory3')
 AEE_VITOR.place(x=1135,y=125)
 
 # VALDENIR
 # MENSAGEM_NOME_VALDENIR
 mensagem = Label(window, text="VALDENIR", font="calibri 16 bold")
 mensagem.place(x=1253,y=90)
-AEE_ELISA = Button(window, text="ELISA", command=aoClicar_ELISA, bg='SeaGreen2')
+AEE_ELISA = Button(window, text="ELISA", command=aoClicar_ELISA, bg='ivory3')
 AEE_ELISA.place(x=1200,y=125)
-AEE_HENRIQUE = Button(window, text="HENRIQUE", command=aoClicar_HENRIQUE, bg='SeaGreen2')
+AEE_HENRIQUE = Button(window, text="HENRIQUE", command=aoClicar_HENRIQUE, bg='ivory3')
 AEE_HENRIQUE.place(x=1242,y=125)
-AEE_JULYA = Button(window, text="JULYA", command=aoClicar_JULYA, bg='SeaGreen2')
+AEE_JULYA = Button(window, text="JULYA", command=aoClicar_JULYA, bg='ivory3')
 AEE_JULYA.place(x=1312,y=125)
-AEE_VICTOR = Button(window, text="VICTOR", command=aoClicar_VICTOR, bg='SeaGreen2')
+AEE_VICTOR = Button(window, text="VICTOR", command=aoClicar_VICTOR, bg='ivory3')
 AEE_VICTOR.place(x=1358,y=125)
 
 # 8S2
 # BRASILETE
-AEE_ALEXANDRE = Button(window, text="ALEXANDRE", command=aoClicar_ALEXANDRE, bg='SeaGreen2')
+AEE_ALEXANDRE = Button(window, text="ALEXANDRE", command=aoClicar_ALEXANDRE, bg='ivory3')
 AEE_ALEXANDRE.place(x=560,y=165)
-AEE_ANTONIO = Button(window, text="ANTONIO", command=aoClicar_ANTONIO, bg='SeaGreen2')
+AEE_ANTONIO = Button(window, text="ANTONIO", command=aoClicar_ANTONIO, bg='ivory3')
 AEE_ANTONIO.place(x=638,y=165)
-AEE_ARTUR = Button(window, text="ARTUR", command=aoClicar_ARTUR, bg='SeaGreen2')
+AEE_ARTUR = Button(window, text="ARTUR", command=aoClicar_ARTUR, bg='ivory3')
 AEE_ARTUR.place(x=705,y=165)
-AEE_MARIA_EDUARDA = Button(window, text="MARIA EDUARDA", command=aoClicar_MARIA_EDUARDA, bg='SeaGreen2')
+AEE_MARIA_EDUARDA = Button(window, text="MARIA EDUARDA", command=aoClicar_MARIA_EDUARDA, bg='ivory3')
 AEE_MARIA_EDUARDA.place(x=755,y=165)
-AEE_MATEUS = Button(window, text="MATEUS", command=aoClicar_MATEUS, bg='SeaGreen2')
+AEE_MATEUS = Button(window, text="MATEUS", command=aoClicar_MATEUS, bg='ivory3')
 AEE_MATEUS.place(x=861,y=165)
-AEE_NICOLAS = Button(window, text="NICOLAS", command=aoClicar_MATEUS, bg='SeaGreen2')
+AEE_NICOLAS = Button(window, text="NICOLAS", command=aoClicar_MATEUS, bg='ivory3')
 AEE_NICOLAS.place(x=920,y=165)
-AEE_RIAN = Button(window, text="RIAN", command=aoClicar_RIAN, bg='SeaGreen2')
+AEE_RIAN = Button(window, text="RIAN", command=aoClicar_RIAN, bg='ivory3')
 AEE_RIAN.place(x=982,y=165)
 
 # ELVIRA
-AEE_ANA = Button(window, text="ANA", command=aoClicar_ANA, bg='SeaGreen2')
+AEE_ANA = Button(window, text="ANA", command=aoClicar_ANA, bg='ivory3')
 AEE_ANA.place(x=1040,y=165)
-AEE_CARLOS = Button(window, text="CARLOS", command=aoClicar_CARLOS, bg='SeaGreen2')
+AEE_CARLOS = Button(window, text="CARLOS", command=aoClicar_CARLOS, bg='ivory3')
 AEE_CARLOS.place(x=1078,y=165)
-AEE_VITOR = Button(window, text="VITOR", command=aoClicar_VITOR, bg='SeaGreen2')
+AEE_VITOR = Button(window, text="VITOR", command=aoClicar_VITOR, bg='ivory3')
 AEE_VITOR.place(x=1135,y=165)
 
 # VALDENIR
-AEE_ELISA = Button(window, text="ELISA", command=aoClicar_ELISA, bg='SeaGreen2')
+AEE_ELISA = Button(window, text="ELISA", command=aoClicar_ELISA, bg='ivory3')
 AEE_ELISA.place(x=1200,y=165)
-AEE_HENRIQUE = Button(window, text="HENRIQUE", command=aoClicar_HENRIQUE, bg='SeaGreen2')
+AEE_HENRIQUE = Button(window, text="HENRIQUE", command=aoClicar_HENRIQUE, bg='ivory3')
 AEE_HENRIQUE.place(x=1242,y=165)
-AEE_JULYA = Button(window, text="JULYA", command=aoClicar_JULYA, bg='SeaGreen2')
+AEE_JULYA = Button(window, text="JULYA", command=aoClicar_JULYA, bg='ivory3')
 AEE_JULYA.place(x=1312,y=165)
-AEE_VICTOR = Button(window, text="VICTOR", command=aoClicar_VICTOR, bg='SeaGreen2')
+AEE_VICTOR = Button(window, text="VICTOR", command=aoClicar_VICTOR, bg='ivory3')
 AEE_VICTOR.place(x=1358,y=165)
 
 # 8S3
 # BRASILETE
-AEE_ALEXANDRE = Button(window, text="ALEXANDRE", command=aoClicar_ALEXANDRE, bg='SeaGreen2')
+AEE_ALEXANDRE = Button(window, text="ALEXANDRE", command=aoClicar_ALEXANDRE, bg='ivory3')
 AEE_ALEXANDRE.place(x=560,y=205)
-AEE_ANTONIO = Button(window, text="ANTONIO", command=aoClicar_ANTONIO, bg='SeaGreen2')
+AEE_ANTONIO = Button(window, text="ANTONIO", command=aoClicar_ANTONIO, bg='ivory3')
 AEE_ANTONIO.place(x=638,y=205)
-AEE_ARTUR = Button(window, text="ARTUR", command=aoClicar_ARTUR, bg='SeaGreen2')
+AEE_ARTUR = Button(window, text="ARTUR", command=aoClicar_ARTUR, bg='ivory3')
 AEE_ARTUR.place(x=705,y=205)
-AEE_MARIA_EDUARDA = Button(window, text="MARIA EDUARDA", command=aoClicar_MARIA_EDUARDA, bg='SeaGreen2')
+AEE_MARIA_EDUARDA = Button(window, text="MARIA EDUARDA", command=aoClicar_MARIA_EDUARDA, bg='ivory3')
 AEE_MARIA_EDUARDA.place(x=755,y=205)
-AEE_MATEUS = Button(window, text="MATEUS", command=aoClicar_MATEUS, bg='SeaGreen2')
+AEE_MATEUS = Button(window, text="MATEUS", command=aoClicar_MATEUS, bg='ivory3')
 AEE_MATEUS.place(x=861,y=205)
-AEE_NICOLAS = Button(window, text="NICOLAS", command=aoClicar_MATEUS, bg='SeaGreen2')
+AEE_NICOLAS = Button(window, text="NICOLAS", command=aoClicar_MATEUS, bg='ivory3')
 AEE_NICOLAS.place(x=920,y=205)
-AEE_RIAN = Button(window, text="RIAN", command=aoClicar_RIAN, bg='SeaGreen2')
+AEE_RIAN = Button(window, text="RIAN", command=aoClicar_RIAN, bg='ivory3')
 AEE_RIAN.place(x=982,y=205)
 
 # ELVIRA
-AEE_ANA = Button(window, text="ANA", command=aoClicar_ANA, bg='SeaGreen2')
+AEE_ANA = Button(window, text="ANA", command=aoClicar_ANA, bg='ivory3')
 AEE_ANA.place(x=1040,y=205)
-AEE_CARLOS = Button(window, text="CARLOS", command=aoClicar_CARLOS, bg='SeaGreen2')
+AEE_CARLOS = Button(window, text="CARLOS", command=aoClicar_CARLOS, bg='ivory3')
 AEE_CARLOS.place(x=1078,y=205)
-AEE_VITOR = Button(window, text="VITOR", command=aoClicar_VITOR, bg='SeaGreen2')
+AEE_VITOR = Button(window, text="VITOR", command=aoClicar_VITOR, bg='ivory3')
 AEE_VITOR.place(x=1135,y=205)
 
 # VALDENIR
-AEE_ELISA = Button(window, text="ELISA", command=aoClicar_ELISA, bg='SeaGreen2')
+AEE_ELISA = Button(window, text="ELISA", command=aoClicar_ELISA, bg='ivory3')
 AEE_ELISA.place(x=1200,y=205)
-AEE_HENRIQUE = Button(window, text="HENRIQUE", command=aoClicar_HENRIQUE, bg='SeaGreen2')
+AEE_HENRIQUE = Button(window, text="HENRIQUE", command=aoClicar_HENRIQUE, bg='ivory3')
 AEE_HENRIQUE.place(x=1242,y=205)
-AEE_JULYA = Button(window, text="JULYA", command=aoClicar_JULYA, bg='SeaGreen2')
+AEE_JULYA = Button(window, text="JULYA", command=aoClicar_JULYA, bg='ivory3')
 AEE_JULYA.place(x=1312,y=205)
-AEE_VICTOR = Button(window, text="VICTOR", command=aoClicar_VICTOR, bg='SeaGreen2')
+AEE_VICTOR = Button(window, text="VICTOR", command=aoClicar_VICTOR, bg='ivory3')
 AEE_VICTOR.place(x=1358,y=205)
 
 # 8S4
 # BRASILETE
-AEE_ALEXANDRE = Button(window, text="ALEXANDRE", command=aoClicar_ALEXANDRE, bg='SeaGreen2')
+AEE_ALEXANDRE = Button(window, text="ALEXANDRE", command=aoClicar_ALEXANDRE, bg='ivory3')
 AEE_ALEXANDRE.place(x=560,y=245)
-AEE_ANTONIO = Button(window, text="ANTONIO", command=aoClicar_ANTONIO, bg='SeaGreen2')
+AEE_ANTONIO = Button(window, text="ANTONIO", command=aoClicar_ANTONIO, bg='ivory3')
 AEE_ANTONIO.place(x=638,y=245)
-AEE_ARTUR = Button(window, text="ARTUR", command=aoClicar_ARTUR, bg='SeaGreen2')
+AEE_ARTUR = Button(window, text="ARTUR", command=aoClicar_ARTUR, bg='ivory3')
 AEE_ARTUR.place(x=705,y=245)
-AEE_MARIA_EDUARDA = Button(window, text="MARIA EDUARDA", command=aoClicar_MARIA_EDUARDA, bg='SeaGreen2')
+AEE_MARIA_EDUARDA = Button(window, text="MARIA EDUARDA", command=aoClicar_MARIA_EDUARDA, bg='ivory3')
 AEE_MARIA_EDUARDA.place(x=755,y=245)
-AEE_MATEUS = Button(window, text="MATEUS", command=aoClicar_MATEUS, bg='SeaGreen2')
+AEE_MATEUS = Button(window, text="MATEUS", command=aoClicar_MATEUS, bg='ivory3')
 AEE_MATEUS.place(x=861,y=245)
-AEE_NICOLAS = Button(window, text="NICOLAS", command=aoClicar_MATEUS, bg='SeaGreen2')
+AEE_NICOLAS = Button(window, text="NICOLAS", command=aoClicar_MATEUS, bg='ivory3')
 AEE_NICOLAS.place(x=920,y=245)
-AEE_RIAN = Button(window, text="RIAN", command=aoClicar_RIAN, bg='SeaGreen2')
+AEE_RIAN = Button(window, text="RIAN", command=aoClicar_RIAN, bg='ivory3')
 AEE_RIAN.place(x=982,y=245)
 
 # ELVIRA
-AEE_ANA = Button(window, text="ANA", command=aoClicar_ANA, bg='SeaGreen2')
+AEE_ANA = Button(window, text="ANA", command=aoClicar_ANA, bg='ivory3')
 AEE_ANA.place(x=1040,y=245)
-AEE_CARLOS = Button(window, text="CARLOS", command=aoClicar_CARLOS, bg='SeaGreen2')
+AEE_CARLOS = Button(window, text="CARLOS", command=aoClicar_CARLOS, bg='ivory3')
 AEE_CARLOS.place(x=1078,y=245)
-AEE_VITOR = Button(window, text="VITOR", command=aoClicar_VITOR, bg='SeaGreen2')
+AEE_VITOR = Button(window, text="VITOR", command=aoClicar_VITOR, bg='ivory3')
 AEE_VITOR.place(x=1135,y=245)
 
 # VALDENIR
-AEE_ELISA = Button(window, text="ELISA", command=aoClicar_ELISA, bg='SeaGreen2')
+AEE_ELISA = Button(window, text="ELISA", command=aoClicar_ELISA, bg='ivory3')
 AEE_ELISA.place(x=1200,y=245)
-AEE_HENRIQUE = Button(window, text="HENRIQUE", command=aoClicar_HENRIQUE, bg='SeaGreen2')
+AEE_HENRIQUE = Button(window, text="HENRIQUE", command=aoClicar_HENRIQUE, bg='ivory3')
 AEE_HENRIQUE.place(x=1242,y=245)
-AEE_JULYA = Button(window, text="JULYA", command=aoClicar_JULYA, bg='SeaGreen2')
+AEE_JULYA = Button(window, text="JULYA", command=aoClicar_JULYA, bg='ivory3')
 AEE_JULYA.place(x=1312,y=245)
-AEE_VICTOR = Button(window, text="VICTOR", command=aoClicar_VICTOR, bg='SeaGreen2')
+AEE_VICTOR = Button(window, text="VICTOR", command=aoClicar_VICTOR, bg='ivory3')
 AEE_VICTOR.place(x=1358,y=245)
 
 
+# BOTÃO DO TERMO:
+BOTAO_TERMO = Button(window, text="TERMO DE RESPONSABILIDADE DE ENSINO PRESENCIAL", command=aoClicar_VICTOR, bg='deep sky blue',
+                     height = 2,width=50)
+BOTAO_TERMO.place(x=615,y=335)
 
 
 # BOTOES DA LEGENDA
 botao_legenda_1 = Button(window, text="DISPONÍVEL", bg='SeaGreen2')
 botao_legenda_1.place(x=70,y=790)
 
-botao_legenda_2 = Button(window, text="NÃO DISPONÍVEL", bg='OrangeRed2')
+botao_legenda_2 = Button(window, text="NÃO DISPONÍVEL", bg='ivory3')
 botao_legenda_2.place(x=160,y=790)
 
 botao_legenda_3 = Button(window, text="LIVROS", bg='dim gray')
@@ -478,7 +487,7 @@ logo = Tk()
 image1 = Image.open("C:/Users/Administrador/Documents/DIEGO/COMUNICAÇÃO/LOGO_EMBELA_VISTA/logo_bela_vista-png.png")
 test = ImageTk.PhotoImage(image1)
 
-label1 = tkinter.Label(image=test)
+label1 = tk.Label(image=test)
 label1.image = test
 
 # Position image
