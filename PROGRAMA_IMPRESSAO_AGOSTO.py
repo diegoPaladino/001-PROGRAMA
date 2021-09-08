@@ -12,31 +12,38 @@ from PIL import Image, ImageTk
 
 # 8S11
 def aoClicar_AGR_IV_8S1():
-    os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/AG_-_V/KIT7AGRUP.5de12a27.05REV-mesclado.pdf","print")
+    os.startfile("LINK","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do AGRUPAMENTO IV, semana 1')
     
 def aoClicar_AGR_V_8S1():
-    os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/AG_-_V/KIT7AGRUP.5de12a27.05REV-mesclado.pdf","print")
+    os.startfile("LINK","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do AGRUPAMENTO V, semana 1')
 
 def aoClicar_ANO_1_8S1():
-    os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    os.startfile("LINK","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 1º ANO, semana 1')
 
 def aoClicar_ANO_2_8S1():
-    os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/2º_ANO/001-2º_ANO_-_1aQUINZENA-MAIO.pdf","print")
+    os.startfile("LINK","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 2º ANO, semana 1')
 
 def aoClicar_ANO_3_8S1():
-    os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/3º_ANO/3º_ANO.pdf","print")
+    os.startfile("LINK","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 3º ANO, semana 1')
 
 def aoClicar_ANO_4_8S1():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Atividades do 4º ANO apenas através dos LIVROS')
 
 def aoClicar_ANO_5_8S1():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Atividades do 5º ANO apenas através dos LIVROS')
     
     
@@ -45,90 +52,111 @@ def aoClicar_ANO_5_8S1():
 # 8S2
 def aoClicar_AGR_IV_8S2():
     # os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/AG_-_V/KIT7AGRUP.5de12a27.05REV-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do AGRUPAMENTO IV, semana 2')
 
 def aoClicar_AGR_V_8S2():
     # os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do AGRUPAMENTO V, semana 2')
 
 def aoClicar_ANO_1_8S2():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/IMPRESSAO_B/ATIVIDADES/2ª_QUINZENA/2º_ANO/ATIVIDADE_2ANO_2QUINZENA_MAIO.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 1º ANO, semana 2')
 
 def aoClicar_ANO_2_8S2():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/IMPRESSAO_B/ATIVIDADES/2ª_QUINZENA/3º_ANO/ ATIVIDADE_3ANO_2QUINZENA_MAIO.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 2º ANO, semana 2')
 
 def aoClicar_ANO_3_8S2():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/IMPRESSAO_B/ATIVIDADES/2ª_QUINZENA/3º_ANO/ ATIVIDADE_3ANO_2QUINZENA_MAIO.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 3º ANO, semana 2')
 
 def aoClicar_ANO_4_8S2():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Atividades do 4º ANO apenas através dos LIVROS')
 
 def aoClicar_ANO_5_8S2():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Atividades do 5º ANO apenas através dos LIVROS')
 
 
 # 8S3
 def aoClicar_AGR_IV_8S3():
     # os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/AG_-_V/KIT7AGRUP.5de12a27.05REV-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do AGRUPAMENTO IV, semana 3')
 
 def aoClicar_AGR_V_8S3():
     # os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do AGRUPAMENTO V, semana 3')
 
 def aoClicar_ANO_1_8S3():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/IMPRESSAO_B/ATIVIDADES/2ª_QUINZENA/2º_ANO/ATIVIDADE_2ANO_2QUINZENA_MAIO.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 1º ANO, semana 3')
 
 def aoClicar_ANO_2_8S3():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/IMPRESSAO_B/ATIVIDADES/2ª_QUINZENA/3º_ANO/ ATIVIDADE_3ANO_2QUINZENA_MAIO.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 2º ANO, semana 3')
 
 def aoClicar_ANO_3_8S3():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/IMPRESSAO_B/ATIVIDADES/2ª_QUINZENA/3º_ANO/ ATIVIDADE_3ANO_2QUINZENA_MAIO.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 3º ANO, semana 3')
 
 def aoClicar_ANO_4_8S3():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Atividades do 5º ANO apenas através dos LIVROS')
 
 def aoClicar_ANO_5_8S3():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Atividades do 5º ANO apenas através dos LIVROS')
     
     
 # 8S4
 def aoClicar_AGR_IV_8S4():
     # os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/AG_-_V/KIT7AGRUP.5de12a27.05REV-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do AGRUPAMENTO IV, semana 4')
 
 def aoClicar_AGR_V_8S4():
     # os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do AGRUPAMENTO V, semana 4')
 
 def aoClicar_ANO_1_8S4():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/IMPRESSAO_B/ATIVIDADES/2ª_QUINZENA/2º_ANO/ATIVIDADE_2ANO_2QUINZENA_MAIO.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 1º ANO, semana 4')
 
 def aoClicar_ANO_2_8S4():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/IMPRESSAO_B/ATIVIDADES/2ª_QUINZENA/3º_ANO/ ATIVIDADE_3ANO_2QUINZENA_MAIO.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 2º ANO, semana 4')
 
 def aoClicar_ANO_3_8S4():
     os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/IMPRESSAO_B/ATIVIDADES/2ª_QUINZENA/3º_ANO/ ATIVIDADE_3ANO_2QUINZENA_MAIO.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Já está sendo impressa a atividade do 3º ANO, semana 4')
 
 def aoClicar_ANO_4_8S4():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Atividades do 5º ANO apenas através dos LIVROS')
 
 def aoClicar_ANO_5_8S4():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Atividades do 5º ANO apenas através dos LIVROS')
     
     
@@ -136,67 +164,81 @@ def aoClicar_ANO_5_8S4():
 # BRASILETE
 def aoClicar_ALEXANDRE():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Atividades do ALEXANDRE está sendo impressa')
     
 def aoClicar_ANTONIO():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Atividades do ANTONIO está sendo impressa')
     
 def aoClicar_ARTUR():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Atividades do ARTUR está sendo impressa')
     
 def aoClicar_MARIA_EDUARDA():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Atividades da MARIA EDUARDA está sendo impressa')
     
 def aoClicar_MATEUS():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Atividades do ARTUR BRAIAN está sendo impressa')
     
 def aoClicar_NICOLAS():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Atividades do NICOLAS está sendo impressa')
     
 def aoClicar_RIAN():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Atividades do RIAN está sendo impressa')
     
 
 # ELVIRA
 def aoClicar_ANA():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Atividades da ANA VITORIA está sendo impressa')
     
 def aoClicar_CARLOS():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Atividades do CARLOS está sendo impressa')
     
 def aoClicar_VITOR():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Atividades do VITOR está sendo impressa')
     
 
 # VALDENIR
 def aoClicar_ELISA():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Atividades da ELISA está sendo impressa')
     
 def aoClicar_HENRIQUE():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Atividades do HENRIQUE está sendo impressa')
     
 def aoClicar_JULYA():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Atividades da JULYA está sendo impressa')
     
 def aoClicar_VICTOR():
     # os.startfile("C:/Users/Administrador/Desktop/ATIVIDADES_MAIO/1ª_QUINZENA/1º_ANO/001-ATIVIDADESDEMAIO-TUDO-mesclado.pdf","print")
+    tkmsg.showinfo(title='',message='Atividades ainda não anexadas ao programa')
     tkmsg.showinfo(title='',message='Atividades da VICTOR está sendo impressa')
     
 # DECLARAÇÃO:
 def aoClicar_TERMO():
-    os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/SETEMBRO/TERMO_RESPONSABILIDADE","print")
+    os.startfile("C:/Users/Administrador/Documents/DIEGO/ONE/IMPRESSAO_ATIVIDADES/SETEMBRO/TERMO_RESPONSABILIDADE/TERMO_RESPONSABILIDADE.txt","print")
     tkmsg.showinfo(title='',message='Já está sendo impressa o TERMO DE RESPONSABILIDADE DE ENSINO PRESENCIAL')
 
 # root
