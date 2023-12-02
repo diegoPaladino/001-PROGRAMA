@@ -1,0 +1,28 @@
+import os
+import shutil
+
+# Caminho para a pasta de arquivos temporários do Windows
+temp_path = os.path.join(os.getenv('WINDIR'), 'Temp')
+
+# Função para limpar arquivos temporários
+def limpar_arquivos_temporarios(path):
+    try:
+        # Listar todos os arquivos e diretórios no caminho
+        for item in os.listdir(path):
+            item_path = os.path.join(path, item)
+            try:
+                # Se for um diretório, remova-o e todo o seu conteúdo
+                if os.path.isdir(item_path):
+                    shutil.rmtree(item_path)
+                # Se for um arquivo, remova-o
+                else:
+                    os.remove(item_path)
+            except Exception as e:
+                print(f"Não foi possível remover {item_path}: {e}")
+
+        print("Arquivos temporários removidos com sucesso.")
+    except Exception as e:
+        print(f"Erro ao limpar arquivos temporários: {e}")
+
+# Chamar a função
+limpar_arquivos_temporarios(temp_path)
