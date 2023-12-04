@@ -1,0 +1,12 @@
+import json
+import psutil
+import time
+
+dados = {}
+
+while True:
+    for proc in psutil.process_iter(['pid', 'name']):
+        dados[proc.info['pid']] = proc.info
+    with open('dados_uso.json', 'w') as file:
+        json.dump(dados, file)
+    time.sleep(60)  # Intervalo de monitoramento
