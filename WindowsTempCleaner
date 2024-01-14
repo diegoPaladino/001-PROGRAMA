@@ -26,3 +26,5 @@ def limpar_arquivos_temporarios(path):
 
 # Chamar a função
 limpar_arquivos_temporarios(temp_path)
+
+#testar no computador de casa
